@@ -280,7 +280,7 @@ for (my $testBucket = 1; $testBucket < 11; $testBucket++){
 	#getting the @ATTRIBUTEs ready
 	foreach my $key (sort keys %docAtts){
 	    if(exists ${$attss}{$key}) { 
-		$attributes{$key} = 1; #log(476/($docAtts{$key}));
+		$attributes{$key} = 1;
 	    }#end if
 	    else{
 		$attributes{$key} = 0;
