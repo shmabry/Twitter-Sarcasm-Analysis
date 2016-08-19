@@ -1,0 +1,59 @@
+key - options: average percent correct with NaiveBayes | average percent correct with SMO
+
+skewed
+
+unigrams only: 85.24 | 86.95
+with stopwords: 86.94 | 87.57
+with hashtags: 85.24 | 87.15
+with spellcheck: 85.45 | 87.99
+with spellcheck and stopwords: 86.51 | 87.58
+with hashtags and stopwords: 86.94 | 87.36
+with hashtags and spellcheck: 85.45 | 
+with hashtags and spellcheck and stopwords: 
+with bigrams: 86.11
+with bigrams and stopwords: 86.31 | 87.99
+with bigrams and spellcheck: 
+with bigrams and hashtags: 86.11
+with bigrams and hashtags and stopwords: 86.31
+with bigrams and hashtags and spellcheck: 
+with bigrams and spellcheck and stopwords: 
+with all: 
+
+hashtags only: 84.66
+
+bigrams only: 81.31
+with hashtags: 81.52
+with stopwords: 83.61
+with hashtags and stopwords: 84.04
+
+
+non_skewed
+
+unigrams only: 90.33
+with stopwords: 84.74
+with hashtags: 90.96
+with spellcheck: 87.94
+with spellcheck and stopwords: 86.03
+with hashtags and stopwords: 84.74
+with hashtags and spellcheck and stopwords: 86.03
+with bigrams: 89.19
+with bigrams and stopwords: 87.21
+with bigrams and hashtags: 89.19
+with bigrams and spellcheck: 87.98
+with bigrams and hashtags and stopwords: 87.21
+with bigrams and hashtags and spellcheck: 87.98
+with bigrams and spellcheck and stopwords: 86.62
+with all: 86.62
+
+hashtags only: 61.58
+with spellcheck: 60.96
+
+bigrams only: 77.72
+with stopwords: 76.21
+with hashtags: 77.72
+with hashtags and stopwords: 76.21
+
+
+
+Notes:
+tf-idf did not make much difference. probably need more data.
